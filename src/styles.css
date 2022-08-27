@@ -6,7 +6,7 @@
 
 body {
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 0;
 }
 
 h1,
@@ -207,10 +207,39 @@ padding: 8px;
 }
 .footer-background{
   background-color: #F8F9FA;
+  text-align: center;
 }
 .footer-background a{
   text-decoration: none;
-  color: aliceblue;
+}
+.my-git{
+  color: #6C63FF;
+}
+
+.get-in-touch{
+  font-size: 90px;
+}
+
+.social-links a{
+  font-size: 18px;
+  color: black;
+}
+.nav-linkedinlink {
+  padding-top: 9px;
+  padding-left: 10px;
+  font-size: 22px;
+}
+
+.my-nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.navbar-nav{
+  color: #6c63ff;
+}
+.navbar-collapse{
+  flex-grow: 0;
 }
 @media (max-width: 767px){
    
