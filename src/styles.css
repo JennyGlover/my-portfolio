@@ -65,24 +65,32 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-.contact-link {
-  background: var(--primary-color);
+.purple-button {
+  background-color:  #6c63ff;
   box-shadow: var(--box-shadow);
   color: white;
+  width: 110px;
+  text-align: center;
 }
-.contact-link:hover {
-  background: white;
+.purple-button:hover {
+  background: #a9a5fc;
   box-shadow: var(--box-shadow);
-  color: var(--primary-color);
+  color: white;
+  width: 110px;
+  text-align: center;
 }
 
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  width: 110px;
+  text-align: center;
 }
 .about-link:hover {
   border: 1px solid #a9a5fc;
   color: #a9a5fc;
+  width: 110px;
+  text-align: center;
 }
 
 .homepage-link {
@@ -233,7 +241,8 @@ padding: 8px;
   font-size: 22px;
 }
 .fa-brands{
-  color: rgb(38, 38, 38)
+  color: rgb(38, 38, 38);
+  padding-right: 8px;
 }
 
 .my-nav{
@@ -252,16 +261,33 @@ padding: 8px;
   margin: 0 auto;
   width: 40%;
 }
-.download-button{
+
+.button-link{
+  border: none;
   display: block;
   margin: 0 auto;
   text-align: center;
   width: 180px;
-  background-color: var(--primary-color);
+  background-color: #6c63ff;
   color: white;
   border-radius: 4px;
   padding: 20px;
   text-decoration: none;
+}
+
+.button-link:hover{
+  text-decoration: none;
+  background: #a9a5fc;
+}
+.download-button{
+  text-decoration: none; 
+   color: white;
+
+}
+.download-button:hover{
+  text-decoration: none; 
+   color: white;
+
 }
 
 @media (max-width: 767px){
