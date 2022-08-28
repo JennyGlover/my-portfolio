@@ -232,6 +232,9 @@ padding: 8px;
   padding-left: 10px;
   font-size: 22px;
 }
+.fa-brands{
+  color: rgb(38, 38, 38)
+}
 
 .my-nav{
   padding-top: 20px;
