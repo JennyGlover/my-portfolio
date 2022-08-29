@@ -122,6 +122,7 @@ p {
 
 .project-images {
   width: 100%;
+  padding: 4px;
 }
 
 .plain-text {
@@ -289,10 +290,16 @@ padding: 8px;
    color: white;
 
 }
+.pokemon{
+  padding-top: 60px;
+}
 
 @media (max-width: 767px){
    
-
+  .pokemon{
+    padding-top: 60px;
+  }
+  
   .author-name-header,
   .main-header{
     font-size: 60px;
@@ -399,6 +406,9 @@ h3{
 }
 .weather-image{
   margin-top: 50px;
+}
+.pokemon{
+  padding-top: 30px;
 }
 
 }
