@@ -260,7 +260,7 @@ padding: 8px;
 .my-resume{
   display: block;
   margin: 0 auto;
-  width: 40%;
+  width: 550px;
 }
 
 .button-link{
@@ -292,6 +292,15 @@ padding: 8px;
 }
 .pokemon{
   padding-top: 60px;
+}
+
+@media (max-width: 1080px){
+  .my-resume{
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+  }
+
 }
 
 @media (max-width: 767px){
@@ -340,6 +349,12 @@ h3{
 .weather-image{
   margin-top: 50px;
 }
+.my-resume{
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
 
 }
 @media (max-width: 572px){
@@ -349,6 +364,12 @@ h3{
     margin-right: 16px;
 
   }
+  my-resume{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+  }
+  
 
 }
 
@@ -410,6 +431,12 @@ h3{
 .pokemon{
   padding-top: 30px;
 }
+my-resume{
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
 
 }
 
