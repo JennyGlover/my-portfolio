@@ -218,6 +218,7 @@ padding: 8px;
   background-color: #F8F9FA;
   text-align: center;
   padding-bottom: 20px;
+  
 }
 .footer-background a{
   text-decoration: none;
@@ -355,6 +356,18 @@ h3{
   .my-resume{
     display: none;
   }
+  .footer-background{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    
+  }
+  .my-resume{
+    display: block;
+    width: 300px;
+  }
   
 
 }
@@ -419,7 +432,16 @@ h3{
 }
 
 .my-resume{
-  display: none;
+  display: block;
+  width: 300px;
+}
+.footer-background{
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  
 }
 
 }
