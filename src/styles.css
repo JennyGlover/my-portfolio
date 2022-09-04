@@ -295,6 +295,12 @@ padding: 8px;
   padding-top: 60px;
 }
 
+.stack-logos img{
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 200px;
+}
 
 
 @media (max-width: 767px){
